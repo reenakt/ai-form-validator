@@ -34,3 +34,35 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+# AI Form Validator
+
+An AI-powered tool to validate frontend forms, improve UX, and check accessibility.
+
+## Why this project?
+Frontend engineers often miss accessibility, edge cases, or UX improvements.
+This tool demonstrates how AI can augment FE engineering without replacing developer judgement.
+
+## Features
+- Paste form JSON to validate rules
+- AI suggestions for accessibility and UX
+- Handles edge cases
+- Loading and error handling
+- Safe server-side JSON validation
+
+## Tech Stack
+- Next.js App Router
+- TypeScript
+- Tailwind CSS
+- Mock AI (Gemini integration when available)
+
+## Learning Outcomes
+- AI + FE integration
+- Defensive AI usage and validation
+- Structured JSON prompts
+- Frontend UX for AI output
+
+## Future Improvements
+- Live Gemini integration
+- More detailed validation rules
+- Support for complex nested forms
